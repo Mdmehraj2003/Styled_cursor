@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+/* cursor: none; */
+}
+
+.smallCursor {
+  height: 15px;
+  width: 15px;
+  background-color: teal;
+  border-radius: 50%;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  transform: translate(-50%,-50%);
+}
+
+.shadowCursor {
+  height: 70px;
+  width: 70px;
+  background-color: teal;
+  border-radius: 50%;
+  filter: blur(35px);
+  position: absolute;
+  left: 0px;
+  top: 0px;
+    transform: translate(-50%,-50%);
+
+}
